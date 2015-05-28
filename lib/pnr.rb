@@ -1,6 +1,6 @@
 #require 'pry-byebug'
 def valid_pnr?(personnummer)
-  personnummer.delete("-")
+  personnummer.delete('-')
   p personnummer
   if personnummer.length != 10
     return "false"
